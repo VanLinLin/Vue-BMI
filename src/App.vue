@@ -70,7 +70,6 @@ let info_map = [
   ["", "", "text-[color:#FF0000]"],
 ];
 
-// let select_number = ref(0);
 const height = ref("");
 const weight = ref("");
 const result = computed(() => {
