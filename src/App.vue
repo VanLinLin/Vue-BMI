@@ -99,6 +99,6 @@ const result = computed(() => {
 
 <style>
 html {
-  background-color: black;
+  background-color: rgb(55, 181, 185);
 }
 </style>
