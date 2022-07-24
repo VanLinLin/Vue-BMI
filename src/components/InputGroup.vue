@@ -1,8 +1,6 @@
 <template>
   <div class="py-2 m-auto">
-    <label
-      for="price"
-      class="block text-sm font-medium text-gray-700 text-center"
+    <label for="price" class="block text-sm font-medium text-white"
       >{{ label_text }}
     </label>
     <div class="mt-1 rounded-md m-auto">

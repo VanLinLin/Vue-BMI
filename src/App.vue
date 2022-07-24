@@ -1,30 +1,20 @@
 <template>
-  <div class="w-80 m-auto text-center shadow-lg rounded-md bg-white">
+  <div class="w-80 m-auto text-center shadow-lg rounded-md bg-black">
     <div class="mt-9 text-[color:#34D399]">
       <div class="pt-8 text-6xl">BMI計算器</div>
     </div>
 
     <div class="mt-6 text-center">
-      <InputGroup
-        v-model="height"
-        label_text="身高"
-        unit_text="公分"
-        class="mx-6"
-      />
-      <div class="m-auto">
+      <InputGroup v-model="height" label_text="身高" class="mx-6" />
+      <div class="m-auto text-white">
         {{ isNaN(height) ? 0 : height / 100 }}
         公尺
       </div>
     </div>
 
     <div class="mt-6 text-center">
-      <InputGroup
-        v-model="weight"
-        label_text="體重"
-        unit_text="公斤"
-        class="mx-6"
-      />
-      <div class="mx-6">{{ weight }}公斤</div>
+      <InputGroup v-model="weight" label_text="體重" class="mx-6" />
+      <div class="mx-6 text-white">{{ weight }}公斤</div>
     </div>
 
     <div class="mt-8 flex justify-center">
